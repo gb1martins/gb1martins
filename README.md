@@ -171,21 +171,6 @@
   </tr>
 </table>
 
----
-
-<!-- ========================= -->
-<!--    ATUALMENTE ESTUDANDO    -->
-<!-- ========================= -->
-
-<h2>📚 Atualmente estudando</h2>
-
-<p>
-  Engenharia de Dados • Cloud Computing • Big Data • Data Pipelines •
-  Arquitetura de Dados • AWS
-</p>
-
----
-
 <!-- ========================= -->
 <!--         OBJETIVO          -->
 <!-- ========================= -->
