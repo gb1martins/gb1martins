@@ -135,24 +135,19 @@
 <h3>🌦️ Airflow Weather Data Pipeline</h3>
 
 <p>
-  Pipeline de dados end-to-end utilizando Python, Airflow, Docker e PostgreSQL
-  para ingestão e processamento de dados climáticos provenientes da API OpenWeather.
-</p>
-
-<p>
-  <strong>Arquitetura:</strong>
-  API → Bronze → Silver → Gold
+  Pipeline de dados end-to-end desenvolvido para coletar, processar e
+  organizar dados climáticos da API OpenWeather, utilizando arquitetura
+  Medallion com camadas Bronze, Silver e Gold.
 </p>
 
 <p>
   <strong>Tecnologias:</strong>
-  Python • Airflow • Docker • PostgreSQL • ETL
+  Python • Airflow • Docker • PostgreSQL • SQL • OpenWeather API
 </p>
 
 <p>
-  🔗
-  <a href="https://github.com/gb1martins/airflow-weather-data-pipeline">
-    Ver projeto
+  🔗 <a href="https://github.com/gb1martins/airflow-weather-data-pipeline">
+  Ver projeto
   </a>
 </p>
 
@@ -161,24 +156,19 @@
 <h3>🏎️ Formula 1 Data Pipeline</h3>
 
 <p>
-  Pipeline de dados desenvolvido para ingestão e processamento de dados da
-  Fórmula 1, utilizando API, Data Lake e arquitetura em camadas.
-</p>
-
-<p>
-  <strong>Arquitetura:</strong>
-  API → S3 → Bronze → Silver → Gold
+  Pipeline de dados desenvolvido para ingestão e processamento de dados
+  da Fórmula 1, utilizando APIs, pré-processamento e armazenamento
+  estruturado em um Data Lake.
 </p>
 
 <p>
   <strong>Tecnologias:</strong>
-  Python • AWS S3 • AWS Glue • Athena
+  Python • Boto3 • Requests • FastF1 • DuckDB • PyArrow • MinIO
 </p>
 
 <p>
-  🔗
-  <a href="https://github.com/gb1martins/formula_1_pipeline_de_dados">
-    Ver projeto
+  🔗 <a href="https://github.com/gb1martins/formula_1_pipeline_de_dados">
+  Ver projeto
   </a>
 </p>
 
@@ -187,40 +177,45 @@
 <h3>✈️ Airline Data Warehouse</h3>
 
 <p>
-  Projeto de Data Warehouse utilizando modelagem dimensional para organização
-  dos dados e realização de análises de negócio.
+  Projeto de Data Warehouse para uma companhia aérea, desenvolvido desde
+  a modelagem do banco transacional até a construção de um modelo dimensional
+  em Star Schema para análises de negócio.
 </p>
 
 <p>
-  <strong>Tecnologias:</strong>
-  SQL • Python • PostgreSQL • Data Warehouse
+  <strong>Tecnologias e conceitos:</strong>
+  PostgreSQL • SQL • ETL • Data Warehouse • Star Schema • SCD
 </p>
 
 <p>
-  🔗
-  <a href="https://github.com/gb1martins/airline-datawarehouse">
-    Ver projeto
+  🔗 <a href="https://github.com/gb1martins/airline-datawarehouse">
+  Ver projeto
   </a>
 </p>
 
 <hr>
 
-<h3>🔄 Data Preparation & Transformation</h3>
+<h3>📦 Northwind Data Pipeline & Analytics</h3>
 
 <p>
-  Projeto voltado para preparação, transformação e organização de dados,
-  aplicando práticas de qualidade e tratamento de dados.
+  Pipeline de dados baseado em arquitetura Medallion, integrando ingestão,
+  processamento, armazenamento analítico, orquestração, dashboard e
+  observabilidade em uma solução de Engenharia de Dados e SRE.
 </p>
 
 <p>
   <strong>Tecnologias:</strong>
-  Python • Pandas • Data Transformation
+  Python • Airflow • MinIO • ClickHouse • Streamlit • Docker
 </p>
 
 <p>
-  🔗
-  <a href="https://github.com/gb1martins/data_prep_transformation">
-    Ver projeto
+  <strong>Observabilidade:</strong>
+  OpenTelemetry • Jaeger • Prometheus • k6
+</p>
+
+<p>
+  🔗 <a href="https://github.com/gb1martins/20261sre-projeto-final">
+  Ver projeto
   </a>
 </p>
 
