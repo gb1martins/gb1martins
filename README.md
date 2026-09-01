@@ -26,7 +26,6 @@
 </p>
 
 ---
-
 <!-- ========================= -->
 <!--        TECNOLOGIAS        -->
 <!-- ========================= -->
@@ -38,16 +37,23 @@
 <p>
   <img src="https://skillicons.dev/icons?i=python" height="45" title="Python">
   <img src="https://skillicons.dev/icons?i=postgresql" height="45" title="PostgreSQL">
-  <img src="https://skillicons.dev/icons?i=mysql" height="45" title="MySQL">
+</p>
+
+<p>
+  <strong>SQL</strong>
 </p>
 
 <h3>☁️ Cloud & Data Engineering</h3>
 
 <p>
   <img src="https://skillicons.dev/icons?i=aws" height="45" title="AWS">
-  <img src="https://skillicons.dev/icons?i=airflow" height="45" title="Airflow">
   <img src="https://skillicons.dev/icons?i=docker" height="45" title="Docker">
-  <img src="https://skillicons.dev/icons?i=dbt" height="45" title="dbt">
+</p>
+
+<p>
+  <strong>Airflow</strong> •
+  <strong>PySpark</strong> •
+  <strong>dbt</strong>
 </p>
 
 <p>
@@ -55,8 +61,8 @@
 </p>
 
 <p>
-  <strong>Data Engineering:</strong> ETL • Data Lake • Data Warehouse •
-  Medallion Architecture • Data Pipelines
+  <strong>Data Engineering:</strong>
+  ETL • Data Lake • Data Warehouse • Medallion Architecture • Data Pipelines
 </p>
 
 ---
