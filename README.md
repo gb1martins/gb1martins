@@ -196,10 +196,9 @@
     gabrielmartins.augusto@gmail.com
   </a>
 </p>
-
 <p>
   💼
-  <a href="https://www.linkedin.com/in/gabriel-martins-augusto/">
+  <a href="https://www.linkedin.com/in/gabriel-augusto-martins-84a573155/">
     LinkedIn
   </a>
 </p>
