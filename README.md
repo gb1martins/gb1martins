@@ -9,14 +9,14 @@
 <br>
 
 <!-- ========================= -->
-<!--         SOBRE MIM        -->
+<!--         SOBRE MIM         -->
 <!-- ========================= -->
 
 <h2>👋 Olá, eu sou Gabriel!</h2>
 
 <p>
-  Sou profissional com experiência em dados, automação e desenvolvimento de
-  soluções para análise e engenharia de dados.
+  Sou profissional com experiência em dados, automação e desenvolvimento
+  de soluções para análise e engenharia de dados.
 </p>
 
 <p>
@@ -71,37 +71,55 @@
   <tr>
     <td width="50%">
 
-### 🌦️ Airflow Weather Data Pipeline
+<h3>🌦️ Airflow Weather Data Pipeline</h3>
 
-Pipeline de dados end-to-end utilizando Python, Airflow, Docker e PostgreSQL para ingestão e processamento de dados climáticos provenientes da API OpenWeather.
+<p>
+  Pipeline de dados end-to-end utilizando Python, Airflow, Docker e PostgreSQL
+  para ingestão e processamento de dados climáticos provenientes da API OpenWeather.
+</p>
 
-**Arquitetura:**
+<p>
+  <strong>Arquitetura:</strong><br>
+  API → Bronze → Silver → Gold
+</p>
 
-`API → Bronze → Silver → Gold`
+<p>
+  <strong>Tecnologias:</strong><br>
+  Python • Airflow • Docker • PostgreSQL • ETL
+</p>
 
-**Tecnologias:**
-
-Python • Airflow • Docker • PostgreSQL • ETL
-
-[🔗 Ver projeto](https://github.com/gb1martins/airflow-weather-data-pipeline)
+<p>
+  <a href="https://github.com/gb1martins/airflow-weather-data-pipeline">
+    🔗 Ver projeto
+  </a>
+</p>
 
     </td>
 
     <td width="50%">
 
-### 🏎️ Formula 1 Data Pipeline
+<h3>🏎️ Formula 1 Data Pipeline</h3>
 
-Pipeline de dados desenvolvido para ingestão e processamento de dados da Fórmula 1, utilizando API, Data Lake e arquitetura em camadas.
+<p>
+  Pipeline de dados desenvolvido para ingestão e processamento de dados da
+  Fórmula 1, utilizando API, Data Lake e arquitetura em camadas.
+</p>
 
-**Arquitetura:**
+<p>
+  <strong>Arquitetura:</strong><br>
+  API → S3 → Bronze → Silver → Gold
+</p>
 
-`API → S3 → Bronze → Silver → Gold`
+<p>
+  <strong>Tecnologias:</strong><br>
+  Python • AWS S3 • AWS Glue • Athena
+</p>
 
-**Tecnologias:**
-
-Python • AWS S3 • AWS Glue • Athena • Data Lake
-
-[🔗 Ver projeto](https://github.com/gb1martins/formula_1_pipeline_de_dados)
+<p>
+  <a href="https://github.com/gb1martins/formula_1_pipeline_de_dados">
+    🔗 Ver projeto
+  </a>
+</p>
 
     </td>
   </tr>
@@ -109,37 +127,45 @@ Python • AWS S3 • AWS Glue • Athena • Data Lake
   <tr>
     <td width="50%">
 
-### ✈️ Airline Data Warehouse
+<h3>✈️ Airline Data Warehouse</h3>
 
-Projeto de Data Warehouse utilizando modelagem dimensional para organização dos dados e realização de análises de negócio.
+<p>
+  Projeto de Data Warehouse utilizando modelagem dimensional para organização
+  dos dados e realização de análises de negócio.
+</p>
 
-**Conceitos:**
+<p>
+  <strong>Tecnologias:</strong><br>
+  SQL • Python • PostgreSQL • Data Warehouse
+</p>
 
-Data Warehouse • Modelagem Dimensional • SQL
-
-**Tecnologias:**
-
-SQL • Python • PostgreSQL
-
-[🔗 Ver projeto](https://github.com/gb1martins/airline-datawarehouse)
+<p>
+  <a href="https://github.com/gb1martins/airline-datawarehouse">
+    🔗 Ver projeto
+  </a>
+</p>
 
     </td>
 
     <td width="50%">
 
-### 🔄 Data Preparation & Transformation
+<h3>🔄 Data Preparation & Transformation</h3>
 
-Projeto voltado para preparação, transformação e organização de dados utilizando Python e práticas de qualidade de dados.
+<p>
+  Projeto voltado para preparação, transformação e organização de dados,
+  aplicando práticas de qualidade e tratamento de dados.
+</p>
 
-**Processos:**
+<p>
+  <strong>Tecnologias:</strong><br>
+  Python • Pandas • Data Transformation
+</p>
 
-Limpeza • Transformação • Validação • Preparação
-
-**Tecnologias:**
-
-Python • Pandas
-
-[🔗 Ver projeto](https://github.com/gb1martins/data_prep_transformation)
+<p>
+  <a href="https://github.com/gb1martins/data_prep_transformation">
+    🔗 Ver projeto
+  </a>
+</p>
 
     </td>
   </tr>
@@ -148,43 +174,66 @@ Python • Pandas
 ---
 
 <!-- ========================= -->
-<!--       ARQUITETURA         -->
+<!--    ATUALMENTE ESTUDANDO    -->
 <!-- ========================= -->
 
-<h2>🏗️ Interesse em Arquitetura de Dados</h2>
+<h2>📚 Atualmente estudando</h2>
 
 <p>
-  Interesse em desenvolver arquiteturas de dados modernas, escaláveis e
-  confiáveis, trabalhando com diferentes etapas do ciclo de vida dos dados:
+  Engenharia de Dados • Cloud Computing • Big Data • Data Pipelines •
+  Arquitetura de Dados • AWS
 </p>
 
-<p align="center">
+---
 
-```text
-          ┌──────────────┐
-          │   Ingestão   │
-          └──────┬───────┘
-                 │
-                 ▼
-          ┌──────────────┐
-          │    Bronze    │
-          │    Raw Data  │
-          └──────┬───────┘
-                 │
-                 ▼
-          ┌──────────────┐
-          │    Silver    │
-          │ Transformation│
-          └──────┬───────┘
-                 │
-                 ▼
-          ┌──────────────┐
-          │     Gold     │
-          │   Analytics  │
-          └──────┬───────┘
-                 │
-                 ▼
-          ┌──────────────┐
-          │   Analytics  │
-          │   & BI       │
-          └──────────────┘
+<!-- ========================= -->
+<!--         OBJETIVO          -->
+<!-- ========================= -->
+
+<h2>🎯 Objetivo</h2>
+
+<p>
+  Construir soluções de dados confiáveis, escaláveis e automatizadas,
+  utilizando tecnologia para transformar dados em informações relevantes
+  para o negócio.
+</p>
+
+<p>
+  Meu foco profissional está direcionado para
+  <strong>Engenharia de Dados</strong> e
+  <strong>Engenharia de Analytics</strong>.
+</p>
+
+---
+
+<!-- ========================= -->
+<!--          CONTATO          -->
+<!-- ========================= -->
+
+<h2>📫 Vamos nos conectar?</h2>
+
+<p>
+  Estou aberto a conexões e oportunidades relacionadas a
+  <strong>Engenharia de Dados</strong> e
+  <strong>Engenharia de Analytics</strong>.
+</p>
+
+<p>
+  📧
+  <a href="mailto:gabrielmartins.augusto@gmail.com">
+    gabrielmartins.augusto@gmail.com
+  </a>
+</p>
+
+<p>
+  💼
+  <a href="https://www.linkedin.com/in/gabriel-martins-augusto/">
+    LinkedIn
+  </a>
+</p>
+
+<br>
+
+<p align="center">
+  <i>Transformando dados em soluções.</i> 🚀
+</p>
