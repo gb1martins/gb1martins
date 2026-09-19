@@ -131,39 +131,20 @@
 <!-- ========================= -->
 
 <h2>🚀 Projetos em destaque</h2>
-
-<h3>🌦️ Airflow Weather Data Pipeline</h3>
-
-<p>
-  Pipeline de dados end-to-end desenvolvido para coletar, processar e
-  organizar dados climáticos da API OpenWeather, utilizando arquitetura
-  Medallion com camadas Bronze, Silver e Gold.
-</p>
-
-<p>
-  <strong>Tecnologias:</strong>
-  Python • Airflow • Docker • PostgreSQL • SQL • OpenWeather API
-</p>
-
-<p>
-  🔗 <a href="https://github.com/gb1martins/airflow-weather-data-pipeline">
-  Ver projeto
-  </a>
-</p>
-
 <hr>
 
-<h3>🏎️ Formula 1 Data Pipeline</h3>
+<h3>🏎️ Formula 1 Data Engineering — Interlagos </h3>
 
 <p>
-  Pipeline de dados desenvolvido para ingestão e processamento de dados
-  da Fórmula 1, utilizando APIs, pré-processamento e armazenamento
-  estruturado em um Data Lake.
+  Pipeline de dados end-to-end desenvolvido para ingestão, processamento,
+  transformação e análise de dados históricos da Fórmula 1, com foco no
+  circuito de Interlagos.
 </p>
 
 <p>
   <strong>Tecnologias:</strong>
-  Python • Boto3 • Requests • FastF1 • DuckDB • PyArrow • MinIO
+  Python • Requests • FastF1 • Boto3 • MinIO • Parquet • DuckDB • PyArrow •
+  scikit-learn • Streamlit • Docker
 </p>
 
 <p>
@@ -174,26 +155,6 @@
 
 <hr>
 
-<h3>✈️ Airline Data Warehouse</h3>
-
-<p>
-  Projeto de Data Warehouse para uma companhia aérea, desenvolvido desde
-  a modelagem do banco transacional até a construção de um modelo dimensional
-  em Star Schema para análises de negócio.
-</p>
-
-<p>
-  <strong>Tecnologias e conceitos:</strong>
-  PostgreSQL • SQL • ETL • Data Warehouse • Star Schema • SCD
-</p>
-
-<p>
-  🔗 <a href="https://github.com/gb1martins/airline-datawarehouse">
-  Ver projeto
-  </a>
-</p>
-
-<hr>
 
 <h3>📦 Northwind Data Pipeline & Analytics</h3>
 
@@ -218,6 +179,50 @@
   Ver projeto
   </a>
 </p>
+
+<h3>🌦️ Airflow Weather Data Pipeline</h3>
+
+<p>
+  Pipeline de dados end-to-end desenvolvido para coletar, processar e
+  organizar dados climáticos da API OpenWeather, utilizando arquitetura
+  Medallion com camadas Bronze, Silver e Gold.
+</p>
+
+<p>
+  <strong>Tecnologias:</strong>
+  Python • Airflow • Docker • PostgreSQL • SQL • OpenWeather API
+</p>
+
+<p>
+  🔗 <a href="https://github.com/gb1martins/airflow-weather-data-pipeline">
+  Ver projeto
+  </a>
+</p>
+
+<hr>
+
+
+<h3>✈️ Airline Data Warehouse</h3>
+
+<p>
+  Projeto de Data Warehouse para uma companhia aérea, desenvolvido desde
+  a modelagem do banco transacional até a construção de um modelo dimensional
+  em Star Schema para análises de negócio.
+</p>
+
+<p>
+  <strong>Tecnologias e conceitos:</strong>
+  PostgreSQL • SQL • ETL • Data Warehouse • Star Schema • SCD
+</p>
+
+<p>
+  🔗 <a href="https://github.com/gb1martins/airline-datawarehouse">
+  Ver projeto
+  </a>
+</p>
+
+<hr>
+
 
 <!-- ========================= -->
 <!--         OBJETIVO          -->
